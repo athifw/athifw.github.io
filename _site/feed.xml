@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Athif Wulandana</title>
+		<description>My Blog</description>		
+		<link>http://athifw.github.io/</link>
+		<atom:link href="http://athifw.github.io//feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>First Day at Viget</title>
+				        
+				
+					<description>&lt;p&gt;Welcome to my blog! This is my first post on this site, which was created using Jekyll and hosted by Github Pages. I have just started my Ruby Development Internship at &lt;a href=&quot;http://viget.com&quot;&gt;Viget&lt;/a&gt; in Durham, North Carolina, and so far, I like it a lot here. One reason why is that when I first got here, I plunged head-first into multiple projects. I learned so much on my first day here, which I can&#39;t say for my computer science classes at Northwestern. The best way to learn for me is to keep creating projects, including this site and hopefully more to come in the future.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 16 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/16/first-day/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/16/first-day/</guid>
+			</item>
+		
+	</channel>
+</rss>
