@@ -7,6 +7,18 @@
 		<atom:link href="http://athifw.github.io//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Day 2</title>
+				        
+				
+					<description>&lt;p&gt;Here&#39;s a quick update of my internship here at Viget. After my last blog post, I updated the site to include &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; comments for each individual post. I also set the home page to show the first few words of a blog post so that the user can choose to &quot;continue reading&quot; a specific blog post. If you have any suggestions or questions, please let me know!&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 17 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/17/day2/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/17/day2/</guid>
+			</item>
+		
+			<item>
 				<title>First Day at Viget</title>
 				        
 				
