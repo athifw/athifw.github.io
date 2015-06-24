@@ -5,7 +5,8 @@
 <p>You can also access this blog via RSS feed <a href="http://athifw.github.io//feed.xml">here</a>.
 
 <h3>Recent Posts</h3>
-<ul class="unstyled">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<ul class="list-unstyled">
   {% for post in site.posts limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
