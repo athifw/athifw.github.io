@@ -45,11 +45,11 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>First Day at Viget</h1>
-      <p class="muted">16 June 2015</p>
-	  <p>Welcome to my blog! This is my first post on this site, which was created using Jekyll and hosted by Github Pages. I have just started my Ruby Development Internship at <a href="http://viget.com">Viget</a> in Durham, North Carolina, and so far, I like it a lot here. One reason why is that when I first got here, I plunged head-first into multiple projects. I learned so much on my first day here, which I can't say for my computer science classes at Northwestern. The best way to learn for me is to keep creating projects, including this site and hopefully more to come in the future.</p>
+      <h1>User Registration for Haxxor</h1>
+      <p class="muted">24 June 2015</p>
+	  <p>After updating the application with the features for articles, I'm working on the users side of the application. So far, I've created the ability to register for an account using ActiveRecord's <a href="http://apidock.com/rails/ActiveModel/SecurePassword/ClassMethods/has_secure_password">has_secure_password</a> method. This required a lot of code in the users controller I generated, as well as a form to accept a username, email, password, and password confirmation. However, I still need to add rspec tests to ensure that any changes I make in the future will not change the working model.</p>
 
-<p>Another reason why I love it here is the Viget family. Viget's Durham location has just over 15 members, and all of them have really welcomed me. Their philosophy emphasizes teamwork and sharing, and I have already seen a lot of that in just my first hours here. I attended multiple meetings yesterday, and my questions and comments were well received even though it was my first day as an intern. I look forward to the rest of my internship here at Viget, and I can't wait to work on some exciting projects (which I will provide updates on here)! Thanks for reading!</p>
+<p>I also worked on letting users login to their registered account. Currently, I'm planning on using sessions to hold user data during a login. Next, I will make sure that a user must be logged in in order to post an article.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">

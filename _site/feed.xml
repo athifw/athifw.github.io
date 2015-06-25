@@ -7,6 +7,66 @@
 		<atom:link href="http://athifw.github.io//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>User Registration for Haxxor</title>
+				        
+				
+					<description>&lt;p&gt;After updating the application with the features for articles, I&#39;m working on the users side of the application. So far, I&#39;ve created the ability to register for an account using ActiveRecord&#39;s &lt;a href=&quot;http://apidock.com/rails/ActiveModel/SecurePassword/ClassMethods/has_secure_password&quot;&gt;has_secure_password&lt;/a&gt; method. This required a lot of code in the users controller I generated, as well as a form to accept a username, email, password, and password confirmation. However, I still need to add rspec tests to ensure that any changes I make in the future will not change the working model.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 24 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/24/user-registration/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/24/user-registration/</guid>
+			</item>
+		
+			<item>
+				<title>Back to Master Branch</title>
+				        
+				
+					<description>&lt;p&gt;Just a short update here - today I just cleaned up some branches for the Hacker News clone and updated the master branch. I also added some tests to make sure the &#39;article&#39; model was working correctly. Then I implemented a feature that limits the number of articles viewable to the last 20 made. Instead of adding this feature in the view page, as I originally did, I edited the controller itself so that it doesn&#39;t need to load all of the articles everytime the page was loaded. This saves resources, especially when there are hundreds or even thousands or articles.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 23 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/23/back-to-master/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/23/back-to-master/</guid>
+			</item>
+		
+			<item>
+				<title>Haxxor News is Live!</title>
+				        
+				
+					<description>&lt;p&gt;After fixing problems brought in my pull request, I uploaded Haxxor News to Heroku! I ran into a few problems here - after receiving countless 502 HTTP request errors, I realized that I did not push the branch right. Also, I had issues with my Procfile. I had to install a web application server, so I ended up using the &#39;thin&#39; gem. After taking these steps, my application worked flawlessly on Heroku. You can check it out here: &lt;a href=&quot;https://athif-haxxor.herokuapp.com&quot;&gt;athif-haxxor.herokuapp.com&lt;/a&gt;. Currently, the only working part is the &lt;a href=&quot;https://athif-haxxor.herokuapp.com/articles&quot;&gt;articles model&lt;/a&gt;. For the rest of the week, I&#39;ll work on the the user model. This includes user registration and authentication.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 22 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/22/haxxor-is-live/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/22/haxxor-is-live/</guid>
+			</item>
+		
+			<item>
+				<title>Starting Haxxor News</title>
+				        
+				
+					<description>&lt;p&gt;Today I started my &#39;Haxxor&#39; site, which is going to be a Hacker News clone. So far, I&#39;ve managed to create a working Ruby application with an &#39;Article&#39; model. This model contains information on the author, title of the page, and url. I have also implemented test-driven development, which means that I usually write the tests for some portion of code and then write the actual code to pass the tests. As I said before, these tests are extremely useful, especially when changing code that does not seem to affect these tests. Running the tests can show whether these changes affect the end result.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/19/haxxor/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/19/haxxor/</guid>
+			</item>
+		
+			<item>
+				<title>Days 3 and 4 - Tests in Ruby</title>
+				        
+				
+					<description>&lt;p&gt;On Wednesday I started a simple Ruby on Rails application to implement a blog site with the help of Chris Jones, a dev here in Viget&#39;s Durham location. The goal of this was to refresh the basics of a Rails application, including using git and a database. We also went over using the &#39;rspec&#39; and &#39;capybara&#39; gems to do tests. Rspec is a very flexible tool, and I was able to test my application in many different ways using capybara. It can &#39;expect&#39; to see a String on a webpage and even fill out forms and click links. These gems can be programmed to essentially run tests like a user would. Before, I never really saw why tests were necessary (especially when the code for these tests is longer than the actual solution for these tests) but now I can see not only how useful they are, but how easy they are to implement, especially with rspec.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 18 Jun 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/06/18/ruby-tests/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/06/18/ruby-tests/</guid>
+			</item>
+		
+			<item>
 				<title>Day 2</title>
 				        
 				
