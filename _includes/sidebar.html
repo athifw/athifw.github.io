@@ -6,8 +6,12 @@
 
 <h3>Recent Posts</h3>
 <link href="/css/bootstrap.css" rel="stylesheet">
-<ul class="list-unstyled">
+<ul class="list-group">
   {% for post in site.posts limit: 5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% if post.url == request.original_url %}
+    <li><a href="{{ post.url }}" class="list-group-item active">{{ post.title }}</a></li>
+    {% else %}
+    <li><a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
