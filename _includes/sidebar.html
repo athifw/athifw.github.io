@@ -6,7 +6,7 @@
 
 <link href="/css/bootstrap.css" rel="stylesheet">
 <ul class="nav nav-list">
-  <li class="nav-header">Recent Posts</li>
+  <li class="nav-header"><h3>Recent Posts</h3></li>
   {% for post in site.posts limit: 5 %}
     {% if post.url == request.original_url %}
     <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
