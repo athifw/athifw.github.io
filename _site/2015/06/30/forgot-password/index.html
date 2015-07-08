@@ -45,9 +45,11 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>Haxxor News is Live!</h1>
-      <p class="muted">22 June 2015</p>
-	  <p>After fixing problems brought in my pull request, I uploaded Haxxor News to Heroku! I ran into a few problems here - after receiving countless 502 HTTP request errors, I realized that I did not push the branch right. Also, I had issues with my Procfile. I had to install a web application server, so I ended up using the 'thin' gem. After taking these steps, my application worked flawlessly on Heroku. You can check it out here: <a href="https://athif-haxxor.herokuapp.com">athif-haxxor.herokuapp.com</a>. Currently, the only working part is the <a href="https://athif-haxxor.herokuapp.com/articles">articles model</a>. For the rest of the week, I'll work on the the user model. This includes user registration and authentication.</p>
+      <h1>Forgot Password Feature</h1>
+      <p class="muted">30 June 2015</p>
+	  <p>Today I implemented a feature that allows users to reset their password if they forget it. This required another column for my user table called a reset password token. This token is a randomly generated string that can be emailed to a user to reset the password. I also had to implement a mailer in order to actually send these emails.</p>
+
+<p>For next time, I will implement threaded comments, so I will like use associations. As always, you can follow my progress on my Github account.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -79,7 +81,7 @@
       <a href="/2015/07/08/progress-update/">Almost Done With Hacker News!</a>
     </li>
   
-    <li > 
+    <li  class="active" > 
       <a href="/2015/06/30/forgot-password/">Forgot Password Feature</a>
     </li>
   

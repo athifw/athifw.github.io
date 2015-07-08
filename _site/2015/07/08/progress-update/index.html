@@ -45,9 +45,11 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>Haxxor News is Live!</h1>
-      <p class="muted">22 June 2015</p>
-	  <p>After fixing problems brought in my pull request, I uploaded Haxxor News to Heroku! I ran into a few problems here - after receiving countless 502 HTTP request errors, I realized that I did not push the branch right. Also, I had issues with my Procfile. I had to install a web application server, so I ended up using the 'thin' gem. After taking these steps, my application worked flawlessly on Heroku. You can check it out here: <a href="https://athif-haxxor.herokuapp.com">athif-haxxor.herokuapp.com</a>. Currently, the only working part is the <a href="https://athif-haxxor.herokuapp.com/articles">articles model</a>. For the rest of the week, I'll work on the the user model. This includes user registration and authentication.</p>
+      <h1>Almost Done With Hacker News!</h1>
+      <p class="muted">08 July 2015</p>
+	  <p>Since the last update, I've updated most of the project and implemented many features. I added a comments model that could reply to both articles and other comments. I implemented this by first creating a polymorphic association making both articles and comments "commentable". This association allowed me to easily get what a comment was commenting on. However, I implemented the polymorphic association after I implemented article commenting, so I had to replace a lot of the code I wrote to accept the association as opposed to just the article.</p>
+
+<p>The other challenge was to actually display the comments in the article view. I ended up recursively rendering each comment as a list, so that it's clear which comments the comments are replying to. Currently, I have a functioning site, but I'm working on implementing voting, including upvotes and downvotes. Let me know if there are other features you think I should implement!</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -75,7 +77,7 @@
 
 <ul class="nav nav-list">
   
-    <li > 
+    <li  class="active" > 
       <a href="/2015/07/08/progress-update/">Almost Done With Hacker News!</a>
     </li>
   

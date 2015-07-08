@@ -45,9 +45,9 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>Haxxor News is Live!</h1>
-      <p class="muted">22 June 2015</p>
-	  <p>After fixing problems brought in my pull request, I uploaded Haxxor News to Heroku! I ran into a few problems here - after receiving countless 502 HTTP request errors, I realized that I did not push the branch right. Also, I had issues with my Procfile. I had to install a web application server, so I ended up using the 'thin' gem. After taking these steps, my application worked flawlessly on Heroku. You can check it out here: <a href="https://athif-haxxor.herokuapp.com">athif-haxxor.herokuapp.com</a>. Currently, the only working part is the <a href="https://athif-haxxor.herokuapp.com/articles">articles model</a>. For the rest of the week, I'll work on the the user model. This includes user registration and authentication.</p>
+      <h1>Implemented Logins</h1>
+      <p class="muted">25 June 2015</p>
+	  <p>In order to implement logins for my application, I created a controller for sessions. I used the session variable to store information on a user that is logged in. I edited the controllers, mostly the application controller and sessiosn controller, to do this. For the rest of the week, I will implement more user logic - only logged in users can post articles.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -87,7 +87,7 @@
       <a href="/2015/06/26/user-auth/">User Authentication for Articles</a>
     </li>
   
-    <li > 
+    <li  class="active" > 
       <a href="/2015/06/25/user-logins/">Implemented Logins</a>
     </li>
   

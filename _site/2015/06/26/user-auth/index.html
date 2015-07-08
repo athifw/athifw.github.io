@@ -45,9 +45,11 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>Haxxor News is Live!</h1>
-      <p class="muted">22 June 2015</p>
-	  <p>After fixing problems brought in my pull request, I uploaded Haxxor News to Heroku! I ran into a few problems here - after receiving countless 502 HTTP request errors, I realized that I did not push the branch right. Also, I had issues with my Procfile. I had to install a web application server, so I ended up using the 'thin' gem. After taking these steps, my application worked flawlessly on Heroku. You can check it out here: <a href="https://athif-haxxor.herokuapp.com">athif-haxxor.herokuapp.com</a>. Currently, the only working part is the <a href="https://athif-haxxor.herokuapp.com/articles">articles model</a>. For the rest of the week, I'll work on the the user model. This includes user registration and authentication.</p>
+      <h1>User Authentication for Articles</h1>
+      <p class="muted">26 June 2015</p>
+	  <p>When I first started the Haxxor application, I generated the article model first. This meant that any visitor could upload a link for an article. So after adding the user model, I had to tie the user logins with article creation. I did this with sessions, which create cookies in the browser. I also edited the articles controller to only create an article if a user was logged in. After doing this, I deleted the 'user' field in the article form so that only the user's name would be attributed to the created article.</p>
+
+<p>Next week, I'm going to implement threaded commenting to articles - users will be able to reply to both articles and comments.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -83,7 +85,7 @@
       <a href="/2015/06/30/forgot-password/">Forgot Password Feature</a>
     </li>
   
-    <li > 
+    <li  class="active" > 
       <a href="/2015/06/26/user-auth/">User Authentication for Articles</a>
     </li>
   
