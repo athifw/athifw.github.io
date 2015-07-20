@@ -7,6 +7,18 @@
 		<atom:link href="http://athifw.github.io//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Finished with Hacker News!</title>
+				        
+				
+					<description>&lt;p&gt;Sorry for the long update time, but I finally finished the Hacker News clone! You can even check it out live on &lt;a href=&quot;https://athif-haxxor.herokuapp.com/&quot;&gt;Heroku&lt;/a&gt;. After adding the comments model, I added the votes model which lets any logged in user vote on either an article or a comment. Because of the nature of this model, I used a polymorphic association between votes and &#39;voteable&#39;, which includes articles and comments. Implementing this model was actually easy, but I had to go back and re-write parts of the articles and comments model to improve efficiency. You can check out all the code on my &lt;a href=&quot;https://github.com/athifw/haxxor&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 20 Jul 2015 00:00:00 -0400</pubDate>
+				<link>http://athifw.github.io//2015/07/20/haxxor-finished/</link>
+				<guid isPermaLink="true">http://athifw.github.io//2015/07/20/haxxor-finished/</guid>
+			</item>
+		
+			<item>
 				<title>Almost Done With Hacker News!</title>
 				        
 				
@@ -112,18 +124,6 @@
 				<pubDate>Thu, 18 Jun 2015 00:00:00 -0400</pubDate>
 				<link>http://athifw.github.io//2015/06/18/ruby-tests/</link>
 				<guid isPermaLink="true">http://athifw.github.io//2015/06/18/ruby-tests/</guid>
-			</item>
-		
-			<item>
-				<title>Day 2</title>
-				        
-				
-					<description>&lt;p&gt;Here&#39;s a quick update of my internship here at Viget. After my last blog post, I updated the site to include &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; comments for each individual post. I also set the home page to show the first few words of a blog post so that the user can choose to &quot;continue reading&quot; a specific blog post. If you have any suggestions or questions, please let me know!&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 17 Jun 2015 00:00:00 -0400</pubDate>
-				<link>http://athifw.github.io//2015/06/17/day2/</link>
-				<guid isPermaLink="true">http://athifw.github.io//2015/06/17/day2/</guid>
 			</item>
 		
 	</channel>

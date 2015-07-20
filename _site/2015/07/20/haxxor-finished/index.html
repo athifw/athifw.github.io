@@ -45,11 +45,13 @@
     <div class="container">
 <div class="row-fluid">
     <div class="span8">
-      <h1>Days 3 and 4 - Tests in Ruby</h1>
-      <p class="muted">18 June 2015</p>
-	  <p>On Wednesday I started a simple Ruby on Rails application to implement a blog site with the help of Chris Jones, a dev here in Viget's Durham location. The goal of this was to refresh the basics of a Rails application, including using git and a database. We also went over using the 'rspec' and 'capybara' gems to do tests. Rspec is a very flexible tool, and I was able to test my application in many different ways using capybara. It can 'expect' to see a String on a webpage and even fill out forms and click links. These gems can be programmed to essentially run tests like a user would. Before, I never really saw why tests were necessary (especially when the code for these tests is longer than the actual solution for these tests) but now I can see not only how useful they are, but how easy they are to implement, especially with rspec.</p>
+      <h1>Finished with Hacker News!</h1>
+      <p class="muted">20 July 2015</p>
+	  <p>Sorry for the long update time, but I finally finished the Hacker News clone! You can even check it out live on <a href="https://athif-haxxor.herokuapp.com/">Heroku</a>. After adding the comments model, I added the votes model which lets any logged in user vote on either an article or a comment. Because of the nature of this model, I used a polymorphic association between votes and 'voteable', which includes articles and comments. Implementing this model was actually easy, but I had to go back and re-write parts of the articles and comments model to improve efficiency. You can check out all the code on my <a href="https://github.com/athifw/haxxor">GitHub</a>.</p>
 
-<p>Today I'll be continuing this application and hopefully starting the hacker news site I mentioned yesterday. I will also be starting a group project with the other interns at Viget soon, and I'm sure we'll come up with something awesome!</p>
+<p>In the future, I'll add Bootstrap to the site to make it more aesthetically pleasing and look like an actual web application. Let me know if you have any other improvements for the site!</p>
+
+<p>For the rest of my internship here (it's already week 6!) I'll work on a personal project as well as the group intern project with the other interns here at Viget.</p>
 
 	  <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -77,7 +79,7 @@
 
 <ul class="nav nav-list">
   
-    <li > 
+    <li  class="active" > 
       <a href="/2015/07/20/haxxor-finished/">Finished with Hacker News!</a>
     </li>
   
